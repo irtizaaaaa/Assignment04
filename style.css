@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(15, 1, 1);
+}
+h1{
+    color:white;
+    font-style:normal;
+    font-size: xx-large;
+    background-color: darkgreen;
+    margin-top: 50px;
+    font-family:'Times New Roman', Times, serif;
+
+    
+}
+.liabrary{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.palpal{
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/pal\ pal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+
+}
+.findingher{
+     height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/finding\ her.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px
+
+}
+.wishes{
+     height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/wishes.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px
+
+}
+.fellforyou{
+         height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/fell\ for\ you.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px
+
+}
+audio{
+    height: 100px;
+    width: 250px;
+    margin-top: 240px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: x-large;
+    color: aliceblue;
+}
+h3{
+    font-size: large;
+    color: green;
+}
+footer pre{
+    color: rgb(185, 154, 154);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 180px;
+}
