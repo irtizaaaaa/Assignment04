@@ -1,0 +1,342 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.HOME{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+  
+    
+}
+.page1{    
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid white;   
+    
+    }
+ .page1 h1{
+    color:darkcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:15px;
+    
+}
+nav{
+    margin-top: 24px;
+    margin-bottom: 30px;
+    margin-left: 560px;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    margin-left: 90px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+}
+.Audiobutton{
+
+    background-color: aqua;
+    border: 2px solid white ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin:90px 0px 0px 800px;
+    padding:10px 20px;
+
+    
+}
+main{
+    padding: 60px;
+}
+.Videobutton{
+    margin-top:20px ;
+     background-color: aqua ;
+    border: 2px solid white ;
+    padding:10px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+    margin: auto;
+}
+section{
+    display: flex;
+    
+}
+.text{
+    display: inline;
+    margin-left:200px;
+}
+.text h1{
+    margin-top: 100px;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px blue,0px 0px 50px white,0px 0px 1px  blue;
+}
+.text h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    color:white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-shadow: 0px 0px 1px blue,0px 0px 50px aqua,0px 0px 1px  blue;
+}
+.image{
+    height:300px;
+    width: 300px;
+     border: 1px cyan solid;
+     display: inline;
+     margin-top: 100px;
+     margin-left:550px;
+     margin-right: 200px;
+     border-radius: 5px;
+    box-shadow: 1px 1px 15px white;
+}
+.image img{
+    height: 300px;width: 300px;
+}
+body{
+    background-color: black;
+}
+.page2{
+    margin-top: 10px;
+    padding: 10px;
+   
+    
+    
+}
+.headingaudio{
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+}
+.page2 h1{
+    color: darkcyan;
+       text-shadow: 0px 0px 10px black , 0px 0px 50px black , 0px 0px 100px  black;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       padding: 10px;
+
+}
+.page2 h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-top: 30px;
+    font-size:28px;
+    margin-left: 550px;
+    text-shadow: 0px 0px 1px green,0px 0px 50px green,0px 0px 5px green;   
+ 
+}
+.liabrary{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.palpal{
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/pal\ pal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+
+
+}
+.findingher{
+     height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/finding\ her.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px
+
+}
+.wishes{
+     height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/wishes.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px
+
+}
+.fellforyou{
+         height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background: url('assets/fell\ for\ you.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px
+
+}
+.audiofooter{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.audiofooter a{
+   background-color: white;
+    border: 2px solid green ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 150px;
+    padding: 10px 20px;
+    margin-left: 830px;
+}
+audio{
+    height: 100px;
+    width: 250px;
+    margin-top: 240px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: x-large;
+    color: aliceblue;
+    margin-top: 40px;
+}
+h3{
+    font-size: large;
+    color: green;
+    margin-top: 10px;
+}
+footer pre{
+
+    color: rgb(185, 154, 154);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 80px ;
+}
+.VB{
+    background-color: black;
+}
+.page3{
+  
+    height: 100px;
+}
+.heading3{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.heading3 h1{
+    color: darkcyan;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.heading3 h2{
+    color:blanchedalmond;
+    margin-left:600px;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+     text-shadow: 0px 0px 1px black,0px 0px 50px grey,0px 0px 5px palegreen;   
+    font-size: 28px; 
+}
+.videos{
+    margin-top:30px;
+    height: 600px;
+    display: flex;
+
+}
+.video1{
+    margin-top: 100px;
+     padding: 30px;
+    border:5px aqua solid;
+    height: 400px;
+    width:350px;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+.video1 video{
+    height: 400px;
+    width: 350px;
+       
+}
+.video2{
+    margin-top: 100px;
+     padding: 30px;
+    border:5px aqua solid;
+    height: 400px;
+    width:350px;
+    margin-top: 65px;
+    margin-left: 10px;
+ 
+}
+.video2 video{
+    height: 400px;
+    width: 350px;
+       
+}
+.video3{
+    margin-top: 100px;
+     padding: 30px;
+    border:5px aqua solid;
+    height: 400px;
+    width:350px;
+    margin-top: 65px;
+    margin-left: 10px;
+ 
+}
+.video3 video{
+    height: 400px;
+    width: 350px;
+       
+}
+.video4{
+    margin-top: 100px;
+     padding: 30px;
+    border:5px aqua solid;
+    height: 400px;
+    width:350px;
+    margin-top: 65px;
+    margin-left: 10px;
+ 
+}
+.video4 video{
+    height: 400px;
+    width: 350px;
+       
+}
+.homebutton{
+margin-top: 638px;
+
+}
+.homebtn{
+   background-color: aqua;
+    border: 2px solid white ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin:90px 0px 0px 870px;
+    padding:10px 20px;
+
+     
+}
